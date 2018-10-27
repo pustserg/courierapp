@@ -1,0 +1,6 @@
+- if @places.any?
+  ul
+    - @places.each do |place|
+     li= place.title
+- else
+ |No places
